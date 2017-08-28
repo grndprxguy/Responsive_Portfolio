@@ -101,6 +101,7 @@ nav a:first-child {
 	max-width: 650px;
 	float: left;
 	border: 1px solid #ddd;
+	;
 }
 
 .auth-image {
@@ -118,7 +119,7 @@ nav a:first-child {
 	width: 100%;
 	max-width: 270px;
 	float: right;
-	border: 10px solid #ddd;
+	border: 1px solid #ddd;
 	margin-bottom: 20px;
 }
 
@@ -150,10 +151,6 @@ footer {
 	color: #ccc;
 	font-size: 12px;
 	text-align: center;
-	 position:fixed;
-   left:0px;
-   bottom:0px;
-   width: 100%;
 }
 
 /*portfolio*/
@@ -228,3 +225,47 @@ input[type=submit] {
 	cursor: pointer;
 }
 
+@media screen and (max-width: 980px) { 
+	.main-section {
+		max-width: 420px;
+	}
+
+	.container {
+		max-width: 750px;
+	}
+
+	.auth-image {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.work {
+		width: 360px;
+	}
+}
+
+@media screen and (max-width: 768px) { 
+
+	.main-section {
+		max-width: 725px;
+	}
+
+	.sidebar {
+		max-width: 725px;
+	}
+
+	.auth-image {
+		width: 330px;
+	}
+
+	.work {
+		width: 315px;
+	}
+
+}
+
+@media screen and (max-width: 640px) { 
+	.nav {	
+		position:static;
+	}
+}
