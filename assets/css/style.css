@@ -265,7 +265,9 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 640px) { 
-	.nav {	
-		position:static;
+	nav {
+		width: 100%;
+		text-align: center;
 	}
+
 }
