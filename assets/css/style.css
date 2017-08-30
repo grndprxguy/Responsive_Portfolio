@@ -261,6 +261,10 @@ input[type=submit] {
 	.work {
 		width: 315px;
 	}
+	nav {
+		position: relative; 
+		right: 20px;
+	}
 
 }
 
@@ -271,5 +275,7 @@ input[type=submit] {
 	}
 	#logo {
 width: 100%;
+	}
+
 	}
 }
